@@ -15,17 +15,7 @@ CREATE DATABASE tarefas_web_service;
 GRANT ALL PRIVILEGES ON tarefas_web_service.* TO tarefaswebservice@localhost IDENTIFIED BY 'tarefaswebservice' WITH GRANT OPTION;
 ```
 
-## Populando o Banco
-
-```sql
-insert into tb_tarefas (tar_data_criacao, tar_descricao, tar_nome, tar_status) values (NOW(), 'descricao um', 'Un', 'ABERTA');
-insert into tb_tarefas (tar_data_criacao, tar_descricao, tar_nome, tar_status) values (NOW(), 'descricao dos', 'Dos', 'ABERTA');
-insert into tb_tarefas (tar_data_criacao, tar_descricao, tar_nome, tar_status) values (NOW(), 'descricao tres', 'Tres', 'ABERTA');
-```
-
 ## Rodando
 
 1. Crie o banco com o script de criação 
-2. Popule o banco com o scripts de população
-3. Suba a aplicação no Tomcat
-
+2. Suba a aplicação no Tomcat
