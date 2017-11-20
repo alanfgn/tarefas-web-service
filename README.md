@@ -25,7 +25,7 @@ insert into tb_tarefas (tar_data_criacao, tar_descricao, tar_nome, tar_status) v
 
 ## Rodando
 
-Crie o banco com o script de criação 
-Popule o banco com o scripts de população
-Suba a aplicação no Tomcat
+1. Crie o banco com o script de criação 
+2. Popule o banco com o scripts de população
+3. Suba a aplicação no Tomcat
 
